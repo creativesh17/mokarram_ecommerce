@@ -89,6 +89,13 @@ class BrandSeeder extends Seeder
 		        'creator' => '1',
 		        'slug' => Str::slug('Grameen Check'),
 		    ],
+            // 11
+        	[
+        		'name' => 'ABC',
+		        'url' => Str::slug('ABC'),
+		        'creator' => '1',
+		        'slug' => Str::slug('ABC'),
+		    ],
         ]);
 
 
