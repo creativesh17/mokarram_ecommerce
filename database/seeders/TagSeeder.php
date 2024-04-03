@@ -36,8 +36,8 @@ class TagSeeder extends Seeder
         	],
             // 3
         	[
-        		'title' => 'WomensFashion',
-        		'url' => Str::slug('WomensFashion'),
+        		'title' => 'WomensCollection',
+        		'url' => Str::slug('WomensCollection'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
         	],
@@ -57,169 +57,156 @@ class TagSeeder extends Seeder
         	],
             // 6
         	[
-        		'title' => 'Shirts',
-        		'url' => Str::slug('Shirts'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-        	],
-            // 7
-        	[
-        		'title' => 'T-shirts',
-        		'url' => Str::slug('T-shirts'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-        	],
-            // 8
-        	[
-        		'title' => 'Saree',
-        		'url' => Str::slug('Saree'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-        	],
-            // 9
-        	[
         		'title' => 'Panjabi',
         		'url' => Str::slug('Panjabi'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
         	],
-            // 10
+            // 7
         	[
         		'title' => 'Pajama',
         		'url' => Str::slug('Pajama'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
         	],
+            // 8
+        	[
+        		'title' => 'Tupi',
+        		'url' => Str::slug('Tupi'),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+        	],
+            // 9
+        	[
+        		'title' => 'Muslim Cap',
+        		'url' => Str::slug('Muslim Cap'),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+        	],
+            // 10
+        	[
+        		'title' => 'Prayer Hat',
+        		'url' => Str::slug('Prayer Hat'),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+        	],
             // 11
         	[
-        		'title' => 'EthnicWear',
-        		'url' => Str::slug('EthnicWear'),
+        		'title' => 'Abaha',
+        		'url' => Str::slug('Abaha'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
         	],
             // 12
         	[
-        		'title' => 'EcoShirts',
-        		'url' => Str::slug('EcoShirts'),
+        		'title' => 'Haji Rumal',
+        		'url' => Str::slug('Haji Rumal'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
         	],
             // 13
         	[
-        		'title' => 'Clothing',
-        		'url' => Str::slug('Clothing'),
+        		'title' => 'Janamaz',
+        		'url' => Str::slug('Janamaz'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
         	],
             // 14
         	[
-        		'title' => 'Outfit',
-        		'url' => Str::slug('Outfit'),
+        		'title' => 'Prayer Mat',
+        		'url' => Str::slug('Prayer Mat'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
         	],
             // 15
+        	[
+        		'title' => 'Tasbih',
+        		'url' => Str::slug('Tasbih'),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+        	],
+            // 16
+        	[
+        		'title' => 'Ator',
+        		'url' => Str::slug('Ator'),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+        	],
+            // 17
+        	[
+        		'title' => 'Perfume',
+        		'url' => Str::slug('Perfume'),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+        	],
+            // 18
+        	[
+        		'title' => 'ননঅ্যালকোহলযুক্ত আতর',
+        		'url' => Str::slug('ননঅ্যালকোহলযুক্ত আতর'),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+        	],
+            // 19
+        	[
+        		'title' => 'Khimar',
+        		'url' => Str::slug('Khimar'),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+        	],
+            // 20
+        	[
+        		'title' => 'খিমার',
+        		'url' => Str::slug('খিমার'),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+        	],
+            // 21
+        	[
+        		'title' => 'Abaya',
+        		'url' => Str::slug('Abaya'),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+        	],
+            // 22
+        	[
+        		'title' => 'Burkha',
+        		'url' => Str::slug('Burkha'),
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
+        	],
+            // 23
         	[
         		'title' => 'Style',
         		'url' => Str::slug('Style'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
         	],
-            // 16
-        	[
-        		'title' => 'Stylish',
-        		'url' => Str::slug('Stylish'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-        	],
-            // 17
+           
+            // 24
         	[
         		'title' => 'NewArrivals',
         		'url' => Str::slug('NewArrivals'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
         	],
-            // 18
-        	[
-        		'title' => 'Formal wear',
-        		'url' => Str::slug('Formal wear'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-        	],
-            // 19
-        	[
-        		'title' => 'Silk garments',
-        		'url' => Str::slug('Silk garments'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-        	],
-            // 20
-        	[
-        		'title' => 'shirts',
-        		'url' => Str::slug('shirts'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-        	],
-            // 21
-        	[
-        		'title' => 'Polo',
-        		'url' => Str::slug('Polo'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-        	],
-            // 22
-        	[
-        		'title' => 'Pant',
-        		'url' => Str::slug('Pant'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-        	],
-            // 23
-        	[
-        		'title' => 'Blazer',
-        		'url' => Str::slug('Blazer'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-        	],
-            // 24
-        	[
-        		'title' => 'Denim',
-        		'url' => Str::slug('Denim'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-        	],
             // 25
         	[
-        		'title' => 'Gabardine',
-        		'url' => Str::slug('Gabardine'),
+        		'title' => 'Rise',
+        		'url' => Str::slug('Rise'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
         	],
             // 26
         	[
-        		'title' => 'Twill',
-        		'url' => Str::slug('Twill'),
+        		'title' => 'Infinity',
+        		'url' => Str::slug('Infinity'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
         	],
             // 27
         	[
-        		'title' => 'Jogger',
-        		'url' => Str::slug('Jogger'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-        	],
-            // 28
-        	[
-        		'title' => 'Wedding Collection',
-        		'url' => Str::slug('Wedding Collection'),
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now(),
-        	],
-            // 29
-        	[
-        		'title' => 'Sherwani',
-        		'url' => Str::slug('Sherwani'),
+        		'title' => 'Twelve',
+        		'url' => Str::slug('Twelve'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
         	],

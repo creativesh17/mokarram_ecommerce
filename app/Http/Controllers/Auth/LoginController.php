@@ -27,7 +27,6 @@ class LoginController extends Controller
         $this->middleware('preventbackgoing');
     }
 
-
     public function redirectTo() {
         if(Auth::check() && Auth::user()->user_role_id <= 2) {
             return '/admin/dashboard';

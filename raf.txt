@@ -163,3 +163,40 @@ https://www.sailor.clothing/category/mens-panjabi?id=mens-panjabi
 https://www.aarong.com/men
 https://www.sailor.clothing/category/mens-panjabi?id=mens-panjabi
 https://www.lerevecraze.com/product-category/men/panjabi/
+
+
+npm install
+npm run dev
+npm run reload
+
+
+custom
+.product-box {
+  height: 487px;
+  margin-bottom: 35px;
+  /* width: 349px; */
+  /* overflow: hidden; */
+  border: 2px solid #e5e5e5;
+}
+.box-content {
+  width: 100%;
+  margin-top: 11px;
+}
+
+shortcode
+.product-box .imagebox {
+	text-align:center;
+	padding:8px 16px;
+	border:2px solid transparent;
+	position:relative;
+	z-index:99;
+	min-height: unset;
+	overflow:visible;
+}
+
+.imagebox .box-image {
+    margin-bottom: 5px;
+    line-height: 209px;
+    height: 209px;
+    overflow: hidden;
+}

@@ -783,9 +783,367 @@ class ProductVariantValueProductSeeder extends Seeder
 
 
 
+            ///////////////////////////////////////////////////////
+            ///////////////////////////////////////////////////////
+
+            // 15
+            // 104
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 14,
+                'product_id' => 15,
+            ],
+            // 105
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 15,
+                'product_id' => 15,
+            ],
+            // 106
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 16,
+                'product_id' => 15,
+            ],
+            // 107
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 19,
+                'product_id' => 15,
+            ],
+            // 108
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 20,
+                'product_id' => 15,
+            ],
+
+
+            ///////////////////////////////////////////////////////
+            ///////////////////////////////////////////////////////
+
+            // 16
+            // 109
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 14,
+                'product_id' => 16,
+            ],
+            // 110
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 15,
+                'product_id' => 16,
+            ],
+            // 111
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 16,
+                'product_id' => 16,
+            ],
+            // 112
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 19,
+                'product_id' => 16,
+            ],
+            // 113
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 20,
+                'product_id' => 16,
+            ],
+
+            ///////////////////////////////////////////////////////
+            ///////////////////////////////////////////////////////
+
+            // 17
+            // 114
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 14,
+                'product_id' => 17,
+            ],
+            // 115
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 15,
+                'product_id' => 17,
+            ],
+            // 116
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 16,
+                'product_id' => 17,
+            ],
+            // 117
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 19,
+                'product_id' => 17,
+            ],
+            // 118
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 20,
+                'product_id' => 17,
+            ],
+
+
+            ///////////////////////////////////////////////////////
+            ///////////////////////////////////////////////////////
+
+            // 19
+            // 119
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 14,
+                'product_id' => 19,
+            ],
+            // 120
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 15,
+                'product_id' => 19,
+            ],
+            // 121
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 16,
+                'product_id' => 19,
+            ],
+            // 122
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 19,
+                'product_id' => 19,
+            ],
+            // 123
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 20,
+                'product_id' => 19,
+            ],
+
+            ///////////////////////////////////////////////////////
+            ///////////////////////////////////////////////////////
+
+            // 20
+            // 124
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 14,
+                'product_id' => 20,
+            ],
+            // 125
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 15,
+                'product_id' => 20,
+            ],
+            // 126
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 16,
+                'product_id' => 20,
+            ],
+            // 127
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 19,
+                'product_id' => 20,
+            ],
+            // 128
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 20,
+                'product_id' => 20,
+            ],
+
+
+            ///////////////////////////////////////////////////////
+            ///////////////////////////////////////////////////////
+
+            // 21
+            // 125
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 14,
+                'product_id' => 21,
+            ],
+            // 126
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 15,
+                'product_id' => 21,
+            ],
+            // 127
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 16,
+                'product_id' => 21,
+            ],
+            // 128
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 19,
+                'product_id' => 21,
+            ],
+            // 129
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 20,
+                'product_id' => 21,
+            ],
+
+
+            ///////////////////////////////////////////////////////
+            ///////////////////////////////////////////////////////
+
+            // 22
+            // 130
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 14,
+                'product_id' => 21,
+            ],
+            // 131
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 15,
+                'product_id' => 21,
+            ],
+            // 132
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 16,
+                'product_id' => 21,
+            ],
+            // 133
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 19,
+                'product_id' => 21,
+            ],
+            // 134
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 20,
+                'product_id' => 21,
+            ],
+
+
+            ///////////////////////////////////////////////////////
+            ///////////////////////////////////////////////////////
+
+            // 25
+            // 135
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 14,
+                'product_id' => 25,
+            ],
+            // 136
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 15,
+                'product_id' => 25,
+            ],
+            // 137
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 16,
+                'product_id' => 25,
+            ],
+            // 138
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 19,
+                'product_id' => 25,
+            ],
+            // 139
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 20,
+                'product_id' => 25,
+            ],
+
+            ///////////////////////////////////////////////////////
+            ///////////////////////////////////////////////////////
+
+            // 26
+            // 140
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 14,
+                'product_id' => 25,
+            ],
+            // 141
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 15,
+                'product_id' => 25,
+            ],
+            // 142
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 16,
+                'product_id' => 25,
+            ],
+            // 143
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 19,
+                'product_id' => 25,
+            ],
+            // 144
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 20,
+                'product_id' => 25,
+            ],
+
+
+            ///////////////////////////////////////////////////////
+            ///////////////////////////////////////////////////////
+
+            // 27
+            // 145
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 14,
+                'product_id' => 25,
+            ],
+            // 146
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 15,
+                'product_id' => 25,
+            ],
+            // 147
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 16,
+                'product_id' => 25,
+            ],
+            // 148
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 19,
+                'product_id' => 25,
+            ],
+            // 149
+            [
+                'product_variant_id' => 3,
+                'product_variant_value_id' => 20,
+                'product_id' => 25,
+            ],
+
+
         ]);
 
 
         Schema::enableForeignKeyConstraints();
     }
+
 }

@@ -1,5 +1,5 @@
 :root {
-  --brand: #ac5110;
+  --brand: #055964;
 }
 .logo_image {
   max-height: 50px;
@@ -27,7 +27,7 @@
   color: #fff;
 }
 .product-box {
-  height: 560px;
+  height: 487px;
   margin-bottom: 35px;
   /* width: 349px; */
   /* overflow: hidden; */
@@ -169,7 +169,7 @@ th .wishlist_1 {
 }
 .box-content {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 .categoryWiseProduct .my-product-box {
   height: 490px !important;
@@ -361,4 +361,12 @@ span .error {
 .header-dropdown {
   height: 400px;
   overflow: scroll;
+}
+
+
+.imagebox .box-image {
+  margin-bottom: 5px;
+  line-height: 209px;
+  height: 209px;
+  overflow: hidden;
 }
