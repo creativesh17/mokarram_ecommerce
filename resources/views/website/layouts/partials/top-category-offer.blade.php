@@ -10,19 +10,19 @@
         <div class="row ">
             <div class="col-md-12 ">
                 <div class="d-flex flex-wrap gap-3">
-                    {{-- @dd($topCate) --}}
-                    @foreach ($topCate as $cate)
-                        @if (isset($cate->category_image))
+                    {{-- @dd($topCateAll) --}}
+                    @foreach ($topCateAll as $singleTopCate)
+                        @if (isset($singleTopCate->category_image))
                             <div class="top_category_item">
                                 <div class="cat_imagebox">
                                     <div class="cat-name">
-                                        <a href="{{ route('category_product', $cate->slug) }}">
+                                        <a href="{{ route('category_product', $singleTopCate->slug) }}">
 
-                                            <img class="top_category_image" src="{{ $cate->category_image }}"
+                                            <img class="top_category_image" src="{{ $singleTopCate->category_image }}"
                                                 alt="">
                                         </a>
-                                        <a href="{{ route('category_product', $cate->slug) }}">
-                                            <p class="top_category_name">{{ $cate->name }}</p>
+                                        <a href="{{ route('category_product', $singleTopCate->slug) }}">
+                                            <p class="top_category_name">{{ $singleTopCate->name }}</p>
                                         </a>
                                     </div>
                                 </div><!-- /.imagebox style1 -->
