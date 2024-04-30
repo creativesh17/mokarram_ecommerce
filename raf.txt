@@ -168,6 +168,8 @@ https://www.lerevecraze.com/product-category/men/panjabi/
 npm install
 npm run dev
 npm run reload
+admin@gmail.com
+1111111
 
 
 custom
@@ -200,3 +202,49 @@ shortcode
     height: 209px;
     overflow: hidden;
 }
+
+
+
+=== 50+20 = 70
+=== 20+30+20 = 70
+=== 20+20+20 = 60
+
+xxx 20+50+20 = 90
+
+
+
+
+1. orWhere from route product_url   and details page
+2. search a tag display=block
+    .search_list_product_title {
+        display: block;
+    }
+3. brand id ke url banaisi ar query sob controller e niesi -> Recent Product
+4. product_box e url hobe id bodole
+5. custom.css - top category - 
+    .top_category_image {
+        height: 67px;
+        width: 67px;
+        object-fit: cover;
+    }
+
+6. special offer -
+    
+    .count-down .square .numb {
+        font-size: 19px;
+    }
+
+7. $specialProducts -> home.blade.php  
+
+8. footer -> sitemap(blade and url) -> kisu name add kora hoy ni ta add korte hobe(footer liinke)
+   sei sathe custom css thik korte hobe
+
+9.  web.php -> 450 -> admin thik koren
+
+10. post->login_> website_login -> redirect() jodi role_id 1, 2 hoy
+
+11. public->frontend->javascript->my-login.js -> 13-14 line etheke sign baad
+
+12. footer kaj custom.css soho
+
+13. category images thik koresi

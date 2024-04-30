@@ -37,9 +37,9 @@
 
 {{-- Special Offer --}}
 {{-- countdown available at Hungery Coder --}}
-@php
+{{-- @php
     $specialProducts = \App\Models\Product::has('discount')->get();
-@endphp
+@endphp --}}
 
 <section class="flat-imagebox style3">
     <div class="container">
@@ -197,21 +197,8 @@
 
     </div><!-- /.container -->
 </section><!-- /.flat-imagebox style4 -->
-{{-- <form class="hide_this" method="POST" id="addCart">
-    @csrf
-</form> --}}
+
 
 @push('js_plugin')
-    <script>
-        // $(function() {
-        //     $(document).on('click', '.addtocart', function(e) {
-        //         e.preventDefault();
 
-        //         var url = $(this).attr('href');
-        //         // alert(url);
-        //         $('#addCart').attr('action', url).submit();
-
-        //     });
-        // });
-    </script>
 @endpush

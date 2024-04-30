@@ -10,7 +10,7 @@
             <a href="{{ route('category_product', $cate->slug) }}" title="" class="{{ $cate->childrens->count() ? 'dropdown' : '' }}">
                 <span class="menu-img">                    
                     @if ($cate->category_image)
-                    <img src="{{ $cate->category_image }}" alt="" width="25px" height="23px">    
+                    <img src="/{{ $cate->category_image }}" alt="" width="25px" height="23px">    
                     @else
                     <img src="{{ asset('frontend') }}/images/icons/menu/05.png" alt="">                        
                     @endif
@@ -26,9 +26,15 @@
                 @foreach($cate->childrens as $child)
 
                 <div class="one-third category-show" >
-                        <div class="cat-title">
-                            {{ $child->name }}
+                    @if ($child->childrens->count())
+                    <div class="cat-title">
+                        <a href="{{ route('category_product', $child->slug) }}">{{ $child->name }}</a>
+                    </div>
+                    @else
+                        <div>
+                            <a href="{{ route('category_product', $child->slug) }}">{{ $child->name }}</a>
                         </div>
+                    @endif
 
                         {{-- @dd($child->childrens) --}}
 
