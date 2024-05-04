@@ -127,11 +127,17 @@
                                         </div>
                                     </div><!-- /.box-content -->
                                     <div class="box-bottom">
-                                        <div class="btn-add-cart">
+                                        {{-- <div class="btn-add-cart">
                                             <a href="{{ route('cart.add', $specialProduct->id) }}" class="addtocart"
                                                 title="">
                                                 <img src="{{ asset('frontend') }}/images/icons/add-cart.png"
                                                     alt="">Add to Cart
+                                            </a>
+                                        </div> --}}
+                                        <div class="btn-add-cart">
+                                            <a id="showProduct" href="#" data-toggle="modal" data-target="#myShowProduct" data-id="{{ $specialProduct->id }}">
+                                                <img src="/frontend/images/icons/add-cart.png" alt="">
+                                                Buy Now
                                             </a>
                                         </div>
                                         <div class="compare-wishlist">
@@ -155,6 +161,7 @@
                                         </div>
                                     </div><!-- /.box-bottom -->
                                 </div><!-- /.imagbox style3 -->
+                                {{-- @include('website.components.product_box', ['product' => $specialProduct]) --}}
                             </div><!-- /.product-item -->
                             <script>
                                 timezz(document.querySelector('.timer{{ $specialProduct->id }}{{ $key }}'), {

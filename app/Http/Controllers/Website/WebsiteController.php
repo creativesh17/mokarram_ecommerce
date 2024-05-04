@@ -20,7 +20,7 @@ class WebsiteController extends Controller
 {
 
     public function home() {
-        // Cart::destroy();
+        Cart::destroy();
         // dd(Carbon::now()->subDay());
         $topCateAll = Category::where('is_top_category', 1)->orderBy("id","asc")->limit(8)->get();
         $specialProducts = Product::has('discount')->limit(10)->get();

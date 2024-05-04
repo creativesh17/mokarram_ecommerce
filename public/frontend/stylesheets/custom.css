@@ -364,19 +364,12 @@ span .error {
   overflow: scroll;
 }
 
-
 .imagebox .box-image {
   margin-bottom: 5px;
   line-height: 209px;
   height: 209px;
   overflow: hidden;
 }
-
-
-
-
-
-
 
 
 
@@ -408,6 +401,57 @@ span .error {
   z-index: 5;
 }
 
+
 .gap-2 {
   gap: 15px;
+}
+
+
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+line-height: 0;
+}
+
+.box-cart .inner-box .dropdown-box .ul-cart-list {
+  max-height: 300px;
+  overflow-x: unset;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+
+/* width */
+.box-cart .inner-box .dropdown-box .ul-cart-list::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.box-cart .inner-box .dropdown-box .ul-cart-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.box-cart .inner-box .dropdown-box .ul-cart-list::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.box-cart .inner-box .dropdown-box .ul-cart-list::-webkit-scrollbar-thumb:hover {
+  background: #055964; 
+} 
+
+.box-cart>.inner-box:hover>.dropdown-box {
+  height: unset;
+  overflow: unset;
+}
+
+.mr-0 {
+  margin: 0!important;
+}
+
+
+/*  */
+
+.no-wrap {
+  text-wrap: nowrap;
 }

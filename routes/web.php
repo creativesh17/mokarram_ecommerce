@@ -59,7 +59,7 @@ Route::group(['prefix' => '', 'namespace' => "Controllers"], function () {
     Route::get('/product/search/page', 'Website\ProductController@productSearchPage')->name('product.search.page');
 
     // Cart
-    Route::get('cart', 'Website\CartController@index');
+    Route::get('cart', 'Website\CartController@index')->name('cart');
     Route::post('cart/add/{product}', 'Website\CartController@addToCart')->name('cart.add');
     Route::get('cartitems', 'Website\CartController@cartItems');
 
@@ -74,7 +74,7 @@ Route::group(['prefix' => '', 'namespace' => "Controllers"], function () {
 
 
     // checkout
-    Route::get('/checkout', 'Website\CheckoutController@checkout');
+    Route::get('/checkout', 'Website\CheckoutController@checkout')->name('checkout');
     Route::post('/checkout', 'Website\CheckoutController@store');
     Route::get('/order-complete/{id}', 'Website\CheckoutController@order_complete');
     Route::post('product/review', 'Website\ReviewController@review')->name('review.new');
