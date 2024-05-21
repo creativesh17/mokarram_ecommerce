@@ -20,7 +20,9 @@
                 <div class="col-lg-8">
                     <div class="flat-row-title style1 d-flex justify-content-between">
                         <h3>Shopping Cart</h3>
-                        <button type="submit" class="btn btn-info" title="">Update Cart</button>    
+                        @if ($cartItems)
+                            <button type="submit" class="btn btn-info" title="">Update Cart</button>                                
+                        @endif
                     </div>
                     <div class="table-cart mCustomScrollbar _mCS_1 mCS_no_scrollbar">
                         <div id="mCSB_1" class="mCustomScrollBox mCS-light mCSB_horizontal mCSB_inside"
@@ -89,9 +91,11 @@
                                             @endforeach
                                         </tbody>
                                     </table>
-                                    <div class="d-flex justify-content-end">
+                                    @if ($cartItems)
+                                    <div class="d-flex justify-content-end mt-2">
                                         <button type="submit" class="btn btn-info" title="">Update Cart</button>
                                     </div>
+                                    @endif
                                 
 
                             </div>
